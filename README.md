@@ -1,1 +1,1 @@
-Console game of Rock Paper Scissors.
+Rock Paper Scissors.
