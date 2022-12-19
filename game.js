@@ -38,6 +38,6 @@ function updateHTML(roundOutcome, playerChoice, compChoice, roundEnd) {
 	} else { winnerCard.textContent = ""; }
 }
 
-const buttons = document.querySelectorAll("button");
-buttons.forEach(button => button.addEventListener("click", () => runRound(button.textContent)));
+const buttons = document.querySelectorAll(".bttn");
+buttons.forEach(button => button.addEventListener("click", () => runRound(button.id)));
 document.querySelector("#round-outcome").addEventListener("transitionend",(e) => e.target.classList.remove("win","tie","lose")); 

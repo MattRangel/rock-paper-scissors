@@ -1,9 +1,15 @@
 body {
 	background-color: slategrey;
+	text-align: center;
+}
+
+.sub-text{
+	font-size: 22px;
 }
 
 #round-outcome{
-	transition: all 1s ease-in;
+	transition: all 1s cubic-bezier(.79,.14,.15,.86);
+	padding: 1em 0;
 }
 
 .win {
@@ -16,4 +22,32 @@ body {
 
 .tie {
 	background-color: gold;
+}
+
+#buttons {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 1em auto;
+	gap: 1em;
+	max-width: 90vw;
+}
+
+.bttn {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 1em;
+	background-color: lightgrey;
+	border-radius: 50%;
+	aspect-ratio: 1 / 1 ;
+	max-height: 25vh;
+}
+
+.bttn:hover {
+	cursor: pointer;
+}
+
+.bttn>img {
+	max-width: 100%;
 }
