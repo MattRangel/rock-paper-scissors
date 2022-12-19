@@ -1,0 +1,19 @@
+body {
+	background-color: slategrey;
+}
+
+#round-outcome{
+	transition: all 1s ease-in;
+}
+
+.win {
+	background-color: limegreen;
+}
+
+.lose {
+	background-color: orangered;
+}
+
+.tie {
+	background-color: gold;
+}
